@@ -24,6 +24,7 @@
       "TXYGMP/Assets/*.png"
     ]
   },
+  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": [
     "UIKit",
     "MapKit",

@@ -27,6 +27,7 @@
 #import "GoogleMapTileImageView.h"
 #import "GoogleMapTileInfoModel.h"
 #import "GoogleMapTileUtil.h"
+#import "GoogleMapViewController.h"
 #import "GoogleMapViewUtil.h"
 #import "GoogleTravelAnnotation.h"
 #import "MapTileConvert.h"
