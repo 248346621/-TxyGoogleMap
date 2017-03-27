@@ -1,0 +1,6 @@
+framework module TXYGMP {
+  umbrella header "TXYGMP-umbrella.h"
+
+  export *
+  module * { export * }
+}

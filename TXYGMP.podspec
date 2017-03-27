@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TXYGMP'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TXYGMP.'
+  s.summary          = '天下游googlemap使用'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,18 +25,19 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ytx123013' => '248346621@qq.com' }
-  s.source           = { :git => 'https://github.com/ytx123013/TXYGMP.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/aa/Desktop/TxyGoogleMap/TXYGMP', :tag => '0.1.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TXYGMP/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TXYGMP' => ['TXYGMP/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TXYGMP' => ['TXYGMP/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'MapKit','CFNetwork','Security','SystemConfiguration','MobileCoreServices','ImageIO'
+   s.dependency 'AFNetworking'
+    s.dependency 'SDWebImage'
 end
