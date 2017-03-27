@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "summary": "天下游googlemap使用",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ytx123013/TXYGMP",
+  "homepage": "https://github.com/248346621/TXYGMP",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ytx123013": "248346621@qq.com"
+    "248346621": "248346621@qq.com"
   },
   "source": {
     "git": "/Users/aa/Desktop/TxyGoogleMap/TXYGMP",
-    "tag": "0.1.1"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"

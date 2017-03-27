@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ytx123013/TXYGMP'
+  s.homepage         = 'https://github.com/248346621/TXYGMP'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ytx123013' => '248346621@qq.com' }
-  s.source           = { :git => '/Users/aa/Desktop/TxyGoogleMap/TXYGMP', :tag => '0.1.1' }
+  s.author           = { '248346621' => '248346621@qq.com' }
+  s.source           = { :git => '/Users/aa/Desktop/TxyGoogleMap/TXYGMP', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
