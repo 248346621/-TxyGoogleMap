@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TXYGMP_Example' do
+  pod 'TXYGMP', :path => '../'
+
+  target 'TXYGMP_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
